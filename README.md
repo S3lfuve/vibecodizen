@@ -2,7 +2,7 @@
 
 A reusable AI-agent skill for developing, reviewing, migrating, debugging, securing, and optimizing [Denizen](https://github.com/DenizenScript/Denizen) scripts for Minecraft Java servers. The skill provides a single `SKILL.md` with guidance, reference patterns, and a verification workflow for `.dsc` files.
 
-The skill is intended for agents that support `SKILL.md` instructions. Installation and skill discovery depend on the agent; the repository name and skill identifier `denizen-codex` are retained for existing installations. The guidance is written in English and currently instructs the agent to answer in Russian. This is an independent skill, not an official Denizen project or a Minecraft plugin.
+The skill is intended for agents that support `SKILL.md` instructions. Installation and skill discovery depend on the agent; the skill identifier `denizen-codex` is retained for existing installations. The guidance is written in English and currently instructs the agent to answer in Russian. This is an independent skill, not an official Denizen project or a Minecraft plugin.
 
 ## Capabilities
 
@@ -31,7 +31,7 @@ Copy `SKILL.md` into the skill location required by your agent, following that a
 For example, to install it for Codex using Git:
 
 ```bash
-git clone https://github.com/S3lfuve/denizen-codex.git ~/.codex/skills/denizen-codex
+git clone https://github.com/S3lfuve/vibecodizen.git ~/.codex/skills/denizen-codex
 ```
 
 On Windows, the corresponding directory is normally `%USERPROFILE%\.codex\skills\denizen-codex`. Once your agent has discovered the skill, ask it to use `denizen-codex` for your Denizen task.
